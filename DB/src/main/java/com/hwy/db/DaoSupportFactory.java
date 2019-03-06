@@ -97,7 +97,7 @@ public class DaoSupportFactory {
         }
 
         // 创建db文件
-        File dbFile = new File(dbRoot, dbName);
+        File dbFile = new File(dbRoot, mDbName);
         // 打开/创建db文件
         mSQLiteDatabase = SQLiteDatabase.openOrCreateDatabase(dbFile, null);
     }
